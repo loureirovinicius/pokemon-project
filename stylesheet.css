@@ -1,0 +1,170 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #0D1117;
+}
+
+p {
+    margin: 0px;
+}
+
+body > img {
+    display: block;
+    margin: auto auto;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+}
+
+.selectPokemon {
+    margin-top: 15px;
+}
+
+.selectPokemon > input {
+    width: 405px;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px #6a717c;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 395px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px;
+    box-shadow: 5px 3px 5px #6a717c;
+}
+
+.title {
+    text-align: center;
+}
+
+.pokemon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+    height: 217px;
+}
+
+.indice {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.type {
+    border-inline: 1px solid #d1d1d1;
+    padding: 10px;
+}
+
+.chip {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.poison {
+    background-color: rgb(184, 20, 184);
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.grass {
+    background-color: rgb(59, 184, 59);
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.ground {
+    background-color: rgb(82, 57, 4);
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.flying {
+    background-color: rgb(233, 205, 145);
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.water {
+    background-color: rgb(72, 72, 235);
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.fire {
+    background-color: rgb(255, 88, 27);
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.fairy {
+    background-color: rgb(233, 126, 224);
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.default {
+    background-color: rgb(180, 180, 180);
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.stats {
+    color: #7a7a7a;
+    margin: 15px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+}
+
+.percentage {
+    background: linear-gradient(90deg, rgb(0 205 79) 0%, rgb(0 181 217) 100%);    ;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.bar {
+    background-color: #d1d1d1;
+    width: 75%;
+    height: 10px;
+    border-radius: 10px;
+    margin: 5px 0px 0px 10px;
+}
+
+.stat > span {
+    width: 25%;
+}
